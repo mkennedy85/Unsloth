@@ -42,16 +42,18 @@ This project demonstrates various fine-tuning techniques using Unsloth.ai framew
 - **Reference**: [Unsloth RL Guide](https://docs.unsloth.ai/get-started/reinforcement-learning-rl-guide)
 
 ### Notebook 4: GRPO Reasoning Model
-- **Model**: Base model for reasoning
+- **Model**: Gemma-2-2B-it
 - **Method**: Group Relative Policy Optimization
-- **Dataset**: Problems with LLM-generated solutions
-- **Reference**: [Unsloth R1 Reasoning](https://unsloth.ai/blog/r1-reasoning)
+- **Dataset**: GSM8K (Grade School Math 8K problems)
+- **Key Feature**: Multi-solution generation and ranking
+- **Use Case**: Training models to reason step-by-step like o1/DeepSeek-R1
 
 ### Notebook 5: Continued Pretraining
-- **Model**: Multilingual capable model
-- **Method**: Continued pretraining
-- **Task**: Teaching LLM a new language
-- **Reference**: [Continued Pretraining Guide](https://docs.unsloth.ai/basics/continued-pretraining)
+- **Model**: SmolLM2-360M
+- **Method**: Continued pretraining on monolingual corpus
+- **Task**: Teaching Spanish to an English model
+- **Dataset**: Spanish Wikipedia
+- **Evaluation**: Perplexity and fluency testing
 
 ## Video Recording Guidelines
 
