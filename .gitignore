@@ -1,0 +1,211 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+kernels/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.virtual_documents/
+
+# Model outputs and checkpoints
+outputs/
+checkpoints/
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+*.ckpt
+
+# Fine-tuned models
+*_finetuned/
+*_lora_adapters/
+*_lora_merged/
+*_dpo*/
+*_orpo*/
+*_grpo*/
+*_gguf/
+*_ollama/
+smollm2*/
+gemma*/
+llama*/
+mistral*/
+phi*/
+
+# HuggingFace cache
+.cache/
+~/.cache/huggingface/
+transformers_cache/
+huggingface_cache/
+
+# Datasets (large files)
+*.csv
+*.json
+*.jsonl
+*.parquet
+*.arrow
+data/*.txt
+data/*.csv
+data/*.json
+data/*.jsonl
+!data/README.md
+
+# Logs and metrics
+*.log
+logs/
+wandb/
+tensorboard/
+runs/
+
+# Training artifacts
+training_output/
+training_logs/
+*.out
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets and tokens
+*.key
+*.pem
+*.token
+secrets/
+credentials/
+
+# Large media files (for video editing)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+videos/
+
+# Compressed files (usually outputs)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Documentation builds
+docs/_build/
+docs/.build/
+site/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Profiling
+*.prof
+
+# Jupyter specific
+.jupyter/
+jupyter_notebook_config.py
+
+# Claude Code / AI Assistant files
+.claude/
+.anthropic/
+.aider*
+.cursor/
+*_claude_*
+claude_*.md
+.clinerules
+
+# Instructional and planning documents
+QUICKSTART.md
+PROJECT_STATUS.md
+COMMIT_READY.md
+GIT_SETUP.md
+docs/video_guidelines.md
+
+# Keep these files
+!.gitkeep
+!README.md
+!*.ipynb
+!*.md
+!*.py
+!requirements.txt
+
+# But exclude the instructional docs listed above
+QUICKSTART.md
+PROJECT_STATUS.md
+COMMIT_READY.md
+GIT_SETUP.md
+docs/video_guidelines.md
+
+# Vertex AI Workbench specific
+.vertex/
+.gcp/
+*.tfrecords
+
+# Colab specific
+sample_data/
+
+# Allow outputs README
+!outputs/README.md
